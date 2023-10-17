@@ -832,7 +832,8 @@ a {
     margin-right: 8px;
 }
 
-.check-input:checked .check-text span {
+.check-input:checked + .check-text 
+.modal-span {
     fill: #404BBF;
     background-color: #404BBF;
     border: none;
