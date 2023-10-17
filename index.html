@@ -27,7 +27,7 @@
 
                 <ul class="header-menu">
                     <li class="header-menu-item">
-                        <a class="header-menu-link" href="./index.html">Studio
+                        <a class="header-menu-link current" href="./index.html">Studio
                         </a>
                     </li>
                     <li class="header-menu-item">
@@ -410,8 +410,86 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-subscribe">
+                <p class="paragraf">Subscribe</p>
+                <form class="form" name="subscribe">
+                    <label class="form-lable">
+                        <div class="form-lable-box">
+                            <input class="footer-input" type="email" placeholder="E-mail" />
+
+                            <button type="submit" class="form-btn">Subscribe
+                                <svg class="footer-btn-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-Frame-3"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </label>
+                </form>
+            </div>
         </div>
     </footer>
+
+
+
+
+
+
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="mobal-btn">
+                <svg class="modal-btn-icon" height="8" width="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Leave your contacts and we will call you back
+            </p>
+            <form class="modal-form">
+                <div class="modal-wrap">
+                    <label for="user-name" class="modal-label">Name</label>
+                    <div class="modal-input-wrap">
+                        <input type="text" name="user-name" class="modal-input" placeholder=""  required id="user-name" />
+                        <svg class="modal-icon" width="18" heigth="18">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="modal-wrap">
+                    <label for="user-tel" class="modal-label">Phone</label>
+                    <div class="modal-input-wrap">
+                        <input type="tel" name="user-tel" class="modal-input" placeholder="" required id="user-tel" />
+                        <svg class="modal-icon" width="18" heigth="24">
+                            <use href="./images/icons.svg#icon-phone-black"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="modal-wrap">
+                    <label for="user-email" class="modal-label">Email</label>
+                    <div class="modal-input-wrap">
+                        <input type="email" name="user-email" class="modal-input" placeholder="" required id="user-email" />
+                        <svg class="modal-icon" width="18" heigth="24">
+                            <use href="./images/icons.svg#icon-email-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-coment">
+                    <label for="user-text" class="modal-label">Comment</label>
+                    <textarea name="user-text" id="user-text" class="modal-text" placeholder="Text input"></textarea>
+                </div>
+
+                <div class="modal-checkbox">
+                    <input type="checkbox" name="modal-check" id="modal-check" class="check-input visually-hidden ">
+                    <label for="modal-check" class="check-text"><span>
+                            <svg class="modal-check-icon" width="16" heigth="16">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span> I accept the terms and conditions of the <a href=" ">Privacy Policy</a></label>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
