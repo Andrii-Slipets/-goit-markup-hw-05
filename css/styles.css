@@ -832,16 +832,16 @@ a {
     text-decoration: underline;
 }
 
-.check-input:checked + .modal-check-icon{
+/* .check-input:checked + .modal-check-icon{
     fill: #404BBF;
-}
+} */
 
-/* .check-input:checked + .check-text 
+.modal-checkbox:checked + .check-text 
 .modal-span {
-    
+    fill: #F4F4FD;
     background-color: #404BBF;
     border: none;
-} */
+}
 
 .btn {
     display: block;
