@@ -805,8 +805,8 @@ a {
 }
 
 .check-text {
-    display: inline-flex;
-    align-items: center;
+    /* display: inline-flex;
+    align-items: center; */
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
@@ -826,14 +826,16 @@ a {
     fill: transparent;
 
 }
-
+.modal-check-icon {
+    display: inline-flex;
+}
 .check-text a {
     color: #4D5AE5;
     text-decoration: underline;
 }
 
 .check-text span {
-    fill: transparent;
+    /* fill: transparent;
     fill: #F4F4FD;
     display: flex;
     align-items: center;
@@ -842,7 +844,7 @@ a {
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
-    margin-right: 8px;
+    margin-right: 8px; */
 }
 
 .check-input:checked+.check-text .modal-span {
