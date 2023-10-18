@@ -805,8 +805,6 @@ a {
 }
 
 .check-text {
-    /* display: inline-flex;
-    align-items: center; */
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
@@ -834,21 +832,13 @@ a {
     text-decoration: underline;
 }
 
-.check-text span {
-    /* fill: transparent;
-    fill: #F4F4FD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16px;
-    height: 16px;
-    border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.40);
-    margin-right: 8px; */
+.check-input:checked {
+    fill: #404BBF;
 }
 
-.check-input:checked+.check-text .modal-span {
-    fill: #404BBF;
+.check-input:checked + .check-text 
+.modal-span {
+    
     background-color: #404BBF;
     border: none;
 }
