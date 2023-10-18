@@ -785,9 +785,11 @@ a {
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-text :focus {
-    border-color: #4D5AE5; 
-}
+.modal-text:focus {
+    border-color: #4D5AE5;
+    }
+    
+
 /* hhjjjj */
 /* .is-open {
     opacity: 1;
