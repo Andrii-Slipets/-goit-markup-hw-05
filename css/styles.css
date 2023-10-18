@@ -832,7 +832,7 @@ a {
     text-decoration: underline;
 }
 
-.check-input:checked {
+.check-input:checked + .modal-check-icon{
     fill: #404BBF;
 }
 
